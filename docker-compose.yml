@@ -16,7 +16,7 @@ services:
       retries: 10
 
   crud-service:
-    build: .
+    build: ./CrudServiceProject
     container_name: crud-service
     restart: unless-stopped
     depends_on:
